@@ -87,7 +87,7 @@ All settings are adjustable in `config.py`:
 
 ## 🖥️ Live Dashboard Preview
 
-![SOC Dashboard](screenshots/dashboard.png)
+![SOC Dashboard](screenshots/Screenshot%202026-05-03%20152724.png)
 
 ---
 
