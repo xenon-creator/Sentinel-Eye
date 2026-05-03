@@ -29,15 +29,14 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sentinel-soc-dashboard.git
-cd sentinel-soc-dashboard
+git clone https://github.com/xenon-creator/Sentinel-Eye.git
+cd Sentinel-Eye
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Set up environment variables (optional)
-cp .env.example .env
-# Edit .env and add your VirusTotal API key
+# Create .env file with VIRUSTOTAL_API_KEY if desired
 
 # Run the dashboard
 python main.py
@@ -88,30 +87,22 @@ All settings are adjustable in `config.py`:
 
 ## 🖥️ Live Dashboard Preview
 
-```
->>> SOC DASHBOARD - LIVE MONITOR | 2026-05-03 14:30:45 <<<
+![SOC Dashboard](screenshots/dashboard.png)
 
->>> MONITORING ACTIVE <<< | Watching: sample.log, auth.log, syslog
+---
 
->>> LIVE ALERTS <<<
-┌──────────────────┬───────────────┬─────────────────┬────────────┬────────────────────────────┐
-│ Time             │ Type          │ IP              │ Severity   │ Details                    │
-├──────────────────┼───────────────┼─────────────────┼────────────┼────────────────────────────┤
-│ 2026-05-03 14:30│ Brute Force   │ 192.168.1.100   │ CRITICAL   │ VT Score: 1/91            │
-└──────────────────┴───────────────┴─────────────────┴────────────┴────────────────────────────┘
+## 🏷️ GitHub Topics
 
->>> STATISTICS <<<
-Total Alerts Today: 42
-  CRITICAL: 2
-  HIGH: 8
-  MEDIUM: 15
-  LOW: 17
-Top Attacking IPs:
-  192.168.1.100: 12
+`cybersecurity` `soc` `python` `threat-intelligence` `cli` `network-security` `intrusion-detection`
 
->>> LIVE LOG MONITOR (scanning)
-2026-05-03 14:30:45 [sample.log] Failed password for root from 192.168.1.100 port 22 ssh2
-```
+---
+
+## 📸 Adding Screenshots
+
+To capture your own screenshot:
+1. Run `python main.py`
+2. Use your terminal's screenshot tool (e.g., Windows Snipping Tool)
+3. Save as `screenshots/dashboard.png`
 
 ---
 
