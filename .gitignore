@@ -1,0 +1,10 @@
+.env
+.env.local
+*.db
+*.pyc
+__pycache__/
+*.log
+*.pcap
+*.pdf
+soc_report.pdf
+.DS_Store
